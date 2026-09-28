@@ -1,0 +1,42 @@
+# 构建产物
+build/
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.exp
+
+# Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.vcxproj.user
+*.sln.docstates
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 测试用 MIDI 文件（无版权，不上传）
+MIDIS/
+*.mid
+*.midi
